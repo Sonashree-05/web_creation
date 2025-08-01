@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My First Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Welcome to My World!</h1>
+  </header>
+
+  <main>
+    <p>This is my first custom website using HTML, CSS, and JS.</p>
+    <img src="profile.jpg" alt="My Photo" class="profile-image" />
+    <button onclick="showMessage()">Click Me</button>
+    <h2>Contact Me</h2>
+<form>
+  <label for="name">Name:</label><br />
+  <input type="text" id="name" name="name" required /><br /><br />
+
+  <label for="email">Email:</label><br />
+  <input type="email" id="email" name="email" required /><br /><br />
+
+  <label for="message">Message:</label><br />
+  <textarea id="message" name="message" rows="4" required></textarea><br /><br />
+
+  <button type="submit">Send Message</button>
+</form>
+    <p id="message"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
